@@ -1,0 +1,10 @@
+input[type="text"],
+button[type="button"] {
+	border: none;
+}
+.beta-signup button[type="button"] {
+	background-color: lighten($red, 10%);
+	color: #fff;
+	font-family: $headings;
+	text-transform: uppercase;
+}

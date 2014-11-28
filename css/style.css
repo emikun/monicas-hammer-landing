@@ -1,0 +1,120 @@
+@charset "UTF-8";
+input[type="text"],
+button[type="button"] {
+  border: none; }
+
+.beta-signup button[type="button"] {
+  background-color: #ff8c74;
+  color: #fff;
+  font-family: "Brandon Grotesque";
+  text-transform: uppercase; }
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #292929; }
+
+h2 {
+  padding-bottom: 1em; }
+
+.container-fluid {
+  max-width: 960px; }
+
+.my-padding {
+  padding: 2em 0 4em 0; }
+
+.nav {
+  background-color: #434343;
+  padding: .6em 0; }
+
+#Logo {
+  height: 25px; }
+
+.mini-title {
+  font-family: "Brandon Grotesque";
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em; }
+
+blockquote {
+  border-left: none; }
+  blockquote cite {
+    display: block; }
+    blockquote cite::before {
+      content: "– "; }
+
+strong {
+  font-weight: 600; }
+
+.hero {
+  background-color: #ff6241; }
+
+.problem {
+  background-color: #5dc6bd;
+  color: #246660; }
+  .problem .mini-title {
+    color: #2a7972; }
+
+.beta-signup {
+  background-color: #FF6241; }
+  .beta-signup p {
+    color: #ffe0da; }
+  .beta-signup h2 {
+    color: #ffa18e; }
+
+.how-it-works {
+  background-color: #318C84; }
+  .how-it-works h2, .how-it-works h3 {
+    color: #5dc6bd; }
+  .how-it-works h3 {
+    font-size: 1em; }
+  .how-it-works p {
+    color: #ceeeeb; }
+
+.project-examples {
+  background-color: #796878; }
+  .project-examples h2 {
+    color: #aa9daa; }
+  .project-examples .thumbnail {
+    border: none; }
+    .project-examples .thumbnail p.labels {
+      line-height: 1.7em; }
+      .project-examples .thumbnail p.labels .label-default {
+        font-weight: normal;
+        background-color: #c2c2c2; }
+
+.testimonials, .solution {
+  color: #5c5c5c; }
+  .testimonials h2, .solution h2 {
+    color: #c2c2c2; }
+
+a {
+  color: #318C84; }
+
+a:hover {
+  color: #246660; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Brandon Grotesque";
+  text-transform: uppercase;
+  letter-spacing: .1em; }
+
+.lead {
+  font-size: 1.25em; }
+
+footer {
+  background-color: #5dc6bd;
+  color: #fff;
+  font-size: .75em; }
+
+footer a {
+  display: block;
+  color: #246660;
+  padding-bottom: .4em; }
+
+.footer-copyright {
+  margin-top: 4em;
+  display: block;
+  color: #318c84; }
