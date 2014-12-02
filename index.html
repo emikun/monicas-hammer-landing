@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Monica's Hammer – Working Better Together</title>
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,11 +12,19 @@
 </head>
 <body>
 	<div class="nav">
-		<img src="img/logo.svg" alt="" id="Logo" class="center-block">
-	</div>
-	<div class="hero my-padding">
 		<div class="container-fluid">
-			<h1>Transforming do-it-yourself to do-it-together.</h1>
+			<a href="#Logo" class="navbar-brand">
+				<img src="img/logo.svg" alt="" id="Logo" class="pull-left">
+			</a>
+			<a type="button" class="btn btn-default navbar-btn pull-right" href="#SubmitButton">Sign Up for Beta</a>
+		</div>
+	</div>
+	<div class="hero">
+		
+	</div>
+	<div class="tagline my-padding">
+		<div class="container-fluid wow fadeInDown">
+			<h1 class="text-center">Transforming do-it-yourself to <br>do-it-together.</h1>
 		</div>
 	</div>
 	<div class="problem my-padding">
@@ -37,22 +46,26 @@
 		<div class="container-fluid">
 			<h2 class="text-center">How it works</h2>
 			<h3 class="text-center">I need help</h3>
-			<p class="lead">Have a DIY project you want to accomplish but don't necessarily know where to start?</p>
+			<p class="lead text-center">Have a DIY project you want to accomplish but don't necessarily know where to start?</p>
 			<div class="row">
 				<div class="col-sm-3 col-xs-6">
-					<h3 class="text-center">Step 1</h3>
+					<img data-src="holder.js/100x100/#5DC6BD:#9BF0E9" class="img-circle center-block wow bounceInDown" alt="">
+					<h4 class="text-center">Step 1</h4>
 					<p class="text-center">Post the project details for your DIY project online.</p>
 				</div>
 				<div class="col-sm-3 col-xs-6">
-					<h3 class="text-center">Step 2</h3>
+					<img data-src="holder.js/100x100/#5DC6BD:#9BF0E9" class="img-circle center-block wow bounceInDown" alt="">
+					<h4 class="text-center">Step 2</h4>
 					<p class="text-center">Accept bids for project suppliers and pick the collaborator you want to work with.</p>
 				</div>
 				<div class="col-sm-3 col-xs-6">
-					<h3 class="text-center">Step 3</h3>
+					<img data-src="holder.js/100x100/#5DC6BD:#9BF0E9" class="img-circle center-block wow bounceInDown" alt="">
+					<h4 class="text-center">Step 3</h4>
 					<p class="text-center">Set up a time for you and collaborator to meet. Hammer away!</p>
 				</div>
 				<div class="col-sm-3 col-xs-6">
-					<h3 class="text-center">Step 4</h3>
+					<img data-src="holder.js/100x100/#5DC6BD:#9BF0E9" class="img-circle center-block wow bounceInDown" alt="">
+					<h4 class="text-center">Step 4</h4>
 					<p class="text-center">Post your project details and show off your work!.</p>
 				</div>
 			</div>
@@ -60,19 +73,23 @@
 			<p class="lead text-center">Got skills to pay the bills and want to help someone accomplish their DIY dream project?</p>
 			<div class="row">
 				<div class="col-sm-3 col-xs-6">
-					<h3 class="text-center">Step 1</h3>
+					<img data-src="holder.js/100x100/#5DC6BD:#9BF0E9" class="img-circle center-block wow bounceInDown" alt="">
+					<h4 class="text-center">Step 1</h4>
 					<p class="text-center">Search for projects based on your unique skill sets.</p>
 				</div>
 				<div class="col-sm-3 col-xs-6">
-					<h3 class="text-center">Step 2</h3>
+					<img data-src="holder.js/100x100/#5DC6BD:#9BF0E9" class="img-circle center-block wow bounceInDown" alt="">
+					<h4 class="text-center">Step 2</h4>
 					<p class="text-center">Find a project you like. Place a bid on a project.</p>
 				</div>
 				<div class="col-sm-3 col-xs-6">
-					<h3 class="text-center">Step 3</h3>
+					<img data-src="holder.js/100x100/#5DC6BD:#9BF0E9" class="img-circle center-block wow bounceInDown" alt="">
+					<h4 class="text-center">Step 3</h4>
 					<p class="text-center">Set up a time for you and collaborator to meet. Hammer away!</p>
 				</div>
 				<div class="col-sm-3 col-xs-6">
-					<h3 class="text-center">Step 4</h3>
+					<img data-src="holder.js/100x100/#5DC6BD:#9BF0E9" class="img-circle center-block wow bounceInDown" alt="">
+					<h4 class="text-center">Step 4</h4>
 					<p class="text-center">At officia laboriosam reprehenderit voluptas dicta.</p>
 				</div>
 			</div>
@@ -83,7 +100,7 @@
 			<h2 class="text-center">What our members are up to</h2>
 			<div class="row">
 				  <div class="col-xs-6 col-sm-3">
-    				<div class="thumbnail">
+    				<div class="thumbnail wow lightSpeedIn">
       					<img data-src="holder.js/300x200/#AA9DAA:#796878">
   						<div class="caption">
     						<h5>Updated Kitchen Cabinets</h5>
@@ -97,42 +114,41 @@
 					</div>
   				</div>
  				<div class="col-xs-6 col-sm-3">
-    				<div class="thumbnail">
+    				<div class="thumbnail wow lightSpeedIn">
       					<img data-src="holder.js/300x200/#AA9DAA:#796878">
   						<div class="caption">
     						<h5>Birthday Cake Decorations</h5>
     						<small>Seattle, WA – <em>Seward Park</em></small>
     						<p>These tired kitchen cabinets get a fresh coat of paint and new pulls.</p>
     						<p class="labels">
-    							<span class="label label-default">Carpentry</span>
-    							<span class="label label-default">Remodeling</span>
+    							<span class="label label-default">Cooking</span>
     						</p>
   						</div>
 					</div>
   				</div>
   				<div class="col-xs-6 col-sm-3">
-    				<div class="thumbnail">
+    				<div class="thumbnail wow lightSpeedIn">
       					<img data-src="holder.js/300x200/#AA9DAA:#796878">
   						<div class="caption">
     						<h5>Backyard Japanese Garden</h5>
     						<small>Seattle, WA – <em>Eastlake</em></small>
     						<p>These tired kitchen cabinets get a fresh coat of paint and new pulls.</p>
     						<p class="labels">
-    							<span class="label label-default">Carpentry</span>
-    							<span class="label label-default">Remodeling</span>
+    							<span class="label label-default">Gardening</span>
+    							<span class="label label-default">Landscaping</span>
     						</p>
   						</div>
 					</div>
   				</div>
   				<div class="col-xs-6 col-sm-3">
-    				<div class="thumbnail">
+    				<div class="thumbnail wow lightSpeedIn">
       					<img data-src="holder.js/300x200/#AA9DAA:#796878">
   						<div class="caption">
-    						<h5>Beach House Lounge</h5>
+    						<h5>Beach House Style Lounge</h5>
     						<small>Redmond, WA – <em>Novelty Hill</em></small>
     						<p>These tired kitchen cabinets get a fresh coat of paint and new pulls.</p>
     						<p class="labels">
-    							<span class="label label-default">Carpentry</span>
+    							<span class="label label-default">Interior Design</span>
     							<span class="label label-default">Remodeling</span>
     						</p>
   						</div>
@@ -146,18 +162,18 @@
 			<h2 class="text-center">What people are saying</h2>
 			<div class="row">
 				<div class="col-sm-6 row">
-					<div class="col-sm-3">
+					<div class="col-sm-3 wow fadeIn" data-wow-duration="2s">
 						<img src="holder.js/100x100/#5DC6BD:#318C84" class="img-circle pull-left">	
 					</div>
-					<div class="col-sm-9">
+					<div class="col-sm-9 wow zoomInUp data-wow-duration="2s"">
 						<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<cite>Username X.</cite></blockquote>	
 					</div>
 				</div>
 				<div class="col-sm-6 row">
-					<div class="col-sm-3">
+					<div class="col-sm-3 wow fadeIn" data-wow-duration="2s">
 						<img src="holder.js/100x100/#5DC6BD:#318C84" class="img-circle pull-left">	
 					</div>
-					<div class="col-sm-9">
+					<div class="col-sm-9 wow zoomInUp" data-wow-duration="2s">
 						<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<cite>Username X.</cite>	</blockquote>
 					</div>
 				</div>
@@ -171,16 +187,15 @@
 			<div class="row">
 				<div class="col-sm-6 col-sm-offset-3">
 					<div class="input-group">
-						<input type="text" class="form-control input-lg" placeholder="My awesome email address">
+						<input type="text" class="form-control input-lg" placeholder="Email address">
 						<span class="input-group-btn">
-							<button class="btn btn-default input-lg" type="button"><i class="fa fa-send"></i> Send</button>
+							<button class="btn btn-default input-lg" type="button" id="SubmitButton"><i class="fa fa-send"></i> Send</button>
 						</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<footer class="my-padding">
 		<div class="container-fluid">
 			<div class="row">
@@ -221,5 +236,16 @@
 	<script src="js/holder.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+		$('#SubmitButton').hover(
+			function(){
+				$(this).addClass('animated pulse');
+		}, function() {
+				$(this).removeClass('animated pulse');
+		}
+		);
+		$(function(){$("a[href*=#]:not([href=#])").click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var e=$(this.hash);e=e.length?e:$("[name="+this.hash.slice(1)+"]");if(e.length){$("html,body").animate({scrollTop:e.offset().top},1e3);return false}}})})
+	</script>
 </body>
 </html>

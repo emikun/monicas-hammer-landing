@@ -24,11 +24,11 @@ h2 {
 	padding: 2em 0 4em 0;
 }
 .nav {
-	background-color: darken($grey, 70%);
-	padding: .6em 0;
+	background-color: darken($purple, 5%);
 }
 #Logo {
 	height: 25px;
+	margin-top: -3px;
 }
 .mini-title {
 	font-family: $headings;
@@ -50,7 +50,16 @@ strong {
 }
 // Major Sections
 .hero {
+	height: 50vh;
+	background-image: url(../img/architect-calculating-design-2097.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.tagline {
 	background-color: lighten($red, 0%);
+	h1 {
+		color: lighten($red, 40%);
+	}
 }
 .problem {
 	background-color: lighten($blue, 20%);
@@ -70,14 +79,22 @@ strong {
 }
 .how-it-works {
 	background-color: $blue;
-	h2, h3 {
+	h2 {
 		color: lighten($blue, 20%);
 	}
 	h3 {
 		font-size: 1em;
+		color: #fff;
+	}
+	h4 {
+		font-size: .8em;
+		color: #fff;
 	}
 	p {
 		color: lighten($blue, 50%);
+	}
+	img {
+		display: block;
 	}
 }
 .project-examples {
