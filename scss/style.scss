@@ -4,7 +4,7 @@ $red: #FF6241;
 $purple: #796878;
 $grey: #F5F5F5;
 
-$headings: 'Brandon Grotesque';
+$headings: "brandon-grotesque", "Brandon Grotesque", sans-serif;
 @import "components/forms.scss";
 // Global & Layout Elements
 body {
@@ -55,15 +55,17 @@ strong {
 }
 // Major Sections
 .hero {
-	height: 50vh;
+	height: 60vh;
 	background-image: url(../img/architect-calculating-design-2097.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .tagline {
 	background-color: lighten($red, 0%);
+	height: 35vh;
 	h1 {
 		color: lighten($red, 40%);
+		padding-top: .6em;
 	}
 }
 .problem {
@@ -130,6 +132,7 @@ a {
 }
 a:hover {
 	color: darken($blue, 10%);
+	text-decoration: none;
 }
 // Typography 
 h1, h2, h3, h4, h5, h6 {
