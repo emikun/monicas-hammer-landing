@@ -25,6 +25,11 @@ h2 {
 }
 .nav {
 	background-color: darken($purple, 5%);
+	.btn {
+		background-color: lighten($purple, 10%);
+		color: lighten($purple, 50%);
+		border: none;
+	}
 }
 #Logo {
 	height: 25px;
@@ -150,4 +155,22 @@ footer a {
 	margin-top: 4em;
 	display: block;
 	color: darken($blue, 0%);
+}
+// Responsive Utilities
+@media screen and (max-width:768px) {
+	#Logo {
+		margin: 0 auto;
+		display: block;
+	}
+}
+@media scren and (max-width:992px) {
+
+}
+@media screen and (max-width:1200px) {
+	.testimonials .col-sm-9 {
+		padding-left: 1em;
+	}
+}
+@media screen and (min-width:1200px) {
+
 }

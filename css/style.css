@@ -27,6 +27,10 @@ h2 {
 
 .nav {
   background-color: #6b5c6a; }
+  .nav .btn {
+    background-color: #938192;
+    color: #f1eff1;
+    border: none; }
 
 #Logo {
   height: 25px;
@@ -132,3 +136,11 @@ footer a {
   margin-top: 4em;
   display: block;
   color: #318c84; }
+
+@media screen and (max-width: 768px) {
+  #Logo {
+    margin: 0 auto;
+    display: block; } }
+@media screen and (max-width: 1200px) {
+  .testimonials .col-sm-9 {
+    padding-left: 1em; } }
