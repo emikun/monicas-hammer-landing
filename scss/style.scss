@@ -21,7 +21,7 @@ h2 {
 	max-width: 960px;
 }
 .my-padding {
-	padding: 2em 0 4em 0;
+	padding: 2em 0 3em 0;
 }
 .nav {
 	background-color: darken($purple, 5%);
@@ -56,7 +56,7 @@ strong {
 // Major Sections
 .hero {
 	height: 60vh;
-	background-image: url(../img/architect-calculating-design-2097.jpg);
+	background-image: url(../img/lady.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -92,6 +92,9 @@ strong {
 	h3 {
 		font-size: 1em;
 		color: #fff;
+		padding: .5em 0;
+		border-top: 4px solid lighten($blue, 20%);
+		border-bottom: 4px solid lighten($blue, 20%);
 	}
 	h4 {
 		font-size: .8em;

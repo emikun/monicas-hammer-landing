@@ -23,7 +23,7 @@ h2 {
   max-width: 960px; }
 
 .my-padding {
-  padding: 2em 0 4em 0; }
+  padding: 2em 0 3em 0; }
 
 .nav {
   background-color: #6b5c6a; }
@@ -54,7 +54,7 @@ strong {
 
 .hero {
   height: 60vh;
-  background-image: url(../img/architect-calculating-design-2097.jpg);
+  background-image: url(../img/lady.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -84,7 +84,10 @@ strong {
     color: #5dc6bd; }
   .how-it-works h3 {
     font-size: 1em;
-    color: #fff; }
+    color: #fff;
+    padding: .5em 0;
+    border-top: 4px solid #5dc6bd;
+    border-bottom: 4px solid #5dc6bd; }
   .how-it-works h4 {
     font-size: .8em;
     color: #fff; }
